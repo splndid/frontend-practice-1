@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0;
+    border-radius: 15px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.navbar {
+    display: flex;
+    background-color: #000000;
+    width: 100%;
+}
+.left-section {
+    display: flex;
+    align-items: center;
+    flex-basis: 50%;
+    padding: 0 0 0 50px;
+
+}
+.right-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    flex-basis: 50%;
+    padding: 0 50px 0 0;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 5px;
+}
+.bar {
+    font-size: 23px;
+}
+.btn {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.b-2 {
+    background-color: #4c5fd5;
+}
+.search-container {
+    background-color: #dadbf1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+h2 {
+    font-size: 3.5rem;
+}
+.searchbox {
+    position: relative;
+    width: 32rem;
+    padding: 10px;
+    margin: -20px 0 30px;
+    border: 1px solid rgba(0, 0, 0, 0.3); /* Initial border style */
+    transition: border-color 0.3s ease; /* Adding transition effect */
+    border-radius: 3px;
+  }
+  
+  .searchbox:focus {
+    outline: none; /* Remove the default focus outline */
+    border-color: rgba(0, 0, 0, 0.7); /* Change border color on focus */
+  }
+  
+.bi {
+    position: absolute;
+    margin: -59px 235px;
+}
+.services {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+.contents {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 40%;
+    padding: 20px 0 20px 65px;
+}
+.contents > a {
+    color: #4c5fd5;
+}
+.bi-icon {
+    font-size: 50px;
+    position:absolute;
+    margin: 0 0 88px -60px
+}
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+    background-color: #000000;
+    color: #fff;
+    padding: 30px 15px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.copyright {
+    display: flex;
+    padding-top: 150px;
+    justify-content: flex-end;
+}
+
+ul {
+    margin: 0; /* Reset the default margin on <ul> elements */
+    padding: 0; /* Also reset padding for consistency */
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.bi-logo {
+    font-size: 30px;
+    margin-right: 5px;
+}
